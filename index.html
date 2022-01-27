@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cogno AI chatbot fun_experiment</title>
+    <!-- Google Fonts Linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Planning -->
+    <!-- MAIN DIV to encompass the whole chat bot UI -->
+        <!-- A DIV to add the orange slide in top section of the chat bot UI -->
+        <!-- Inside this DIV, There should be the text and Robot Face rounded -->
+            <!-- FAQ DIV -->
+                <!-- Each Item DIV -->
+    <!-- End of Planning -->
+
+    <main>
+
+        <div class="chatbot-whole display-none">
+            
+            <div class="top-section">
+                <div class="inside-top-content">
+                    <h1>IRIS</h1>
+                    <h3>Hello <img src="./res/hand_w.svg" alt="Hand waving emoji vector"> </h3>
+                    <p>I am Iris, a Virtual Assistant <br> How may I help you?</p>
+                </div>
+                <div class="robot">
+                    <img src="./res/robot.svg" alt="A vector graphics of robot">
+                </div>
+            </div>
+
+            <div class="inside-main-content">
+                <div class="faq">
+                    <p>Frequently Asked Questions</p> 
+                    <div class="image">
+                    <img src="./res/questionmark.svg" alt="A vector of a question mark"></div>
+                </div>
+
+                <div class="questions">
+                    <div class="question-card"> <img src="./res/dot_bullet.svg" alt="Dot bullet"> <p>Can I redeem my FB before the original term?</p></div>
+                    <div class="question-card"> <img src="./res/dot_bullet.svg" alt="Dot bullet"> <p>How do I pay my Credit card bill?</p></div>
+                    <div class="question-card"> <img src="./res/dot_bullet.svg" alt="Dot bullet"> <p>How can I get my Account Statement?</p></div>
+                    <div class="question-card"> <img src="./res/dot_bullet.svg" alt="Dot bullet"> <p>What is the tenure of Fixed Deposit?</p></div>
+                </div>
+                
+
+                <div class="new-conversation-btn"><img src="./res/message_icon.svg" alt=""><p> Start a New Conversation</p></div>
+            </div>
+
+        </div>
+        <button>Chat!</button>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
